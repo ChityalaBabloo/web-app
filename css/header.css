@@ -1,0 +1,25 @@
+.navbar {
+    width: 100%;
+    background: #2f333e;
+    /*padding: 0.5rem 1rem;*/
+    border-radius: 0;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+    top:0;
+}
+.navbar-brand {
+    color: white!important;
+    font-size: 1.25em!important;
+}
+.logout {
+    font-weight: 400;
+    font-size: 1.5em;
+    color: white!important;
+}
+.logout:hover, .navbar-brand:hover {
+    color: aqua!important    ;
+    opacity: 0.9;
+}
+.affix + .container-fluid {
+    padding-top: 70px;
+}

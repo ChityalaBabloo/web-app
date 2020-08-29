@@ -1,0 +1,247 @@
+* {
+    margin:0;
+    padding:0;
+}
+body {
+    background: #673AB7;
+    background: linear-gradient(to top, rgb(178, 69, 146), rgb(241, 95, 121));
+	background-size:cover;
+	background-attachment: fixed; 
+	font-family: 'Roboto Condensed', sans-serif;
+}
+h1 {
+    font-size: 3em;
+    text-align: center;
+    color: #fff;
+    font-weight: 100;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.content {
+    padding:3em 0 1em;
+}
+.main-content {
+    width: 35%;
+    margin: 3em auto;
+    background: rgba(0, 0, 0, 0.12);
+    background-size: cover;
+}
+.form {
+    padding:3em; 
+}
+.text {
+    font-size: 1em;
+    color: #fff;
+    font-weight: 100;
+    width: 94.5%;
+    padding: 0.8em;
+    border: solid 1px rgba(255, 255, 255, 0.37);
+    background-color: transparent;
+    background-position: -800px 0;
+    background-repeat: no-repeat;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 1em 0;
+}
+.text:focus{
+	box-shadow: none;
+	outline: none;
+    background-position: 0 0;
+    border:none;
+    border-bottom:solid 1px rgba(255, 255, 255, 0.37);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #fff 4%);
+    transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+}
+::-webkit-input-placeholder {
+	color: #fff;  
+	font-weight: 100;
+} 
+:-ms-input-placeholder {  
+    color: #fff;  
+}
+input[type="submit"] {
+    font-size:.9em;
+    color: #fff;
+    background: #ef5e7a;
+    outline: none;
+    border-color: #ef5e7c;
+    cursor: pointer;
+    padding: 0.9em;
+    width: 94.5%;
+    margin: 2em 0;
+    letter-spacing: 4px;
+}
+p {
+    color:white;
+}
+a:link {
+    letter-spacing: 1px;
+    font-weight: bold;
+    color:aqua;
+    text-decoration: none;
+}
+option {
+    background:rgb(158, 63, 111);
+}
+.info {
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+/*-- responsive-design --*/ 
+@media(max-width:1440px){
+    .text { 
+        width: 94%;  
+    }
+}
+@media(max-width:1366px){
+    h1 {
+        font-size: 2.6em; 
+    }
+    .form {
+        padding: 2.5em;
+    }
+    .main-content { 
+        margin: 2em auto; 
+    }
+    .main-content {
+        width: 36%; 
+    }
+}
+@media(max-width:1280px){ 
+    .main-content {
+        width: 40%; 
+    }
+}
+@media(max-width:1080px){ 
+    .main-content {
+        width: 46%;
+    }
+} 
+@media(max-width:1024px){
+    .main-content {
+        width: 49%;
+    } 
+}
+@media(max-width:991px){
+    h1 {
+        font-size: 2.4em;
+    }
+    .content {
+        padding: 2em 0 1em;
+    }
+}
+@media(max-width:900px){ 
+    .main-content {
+        width: 58%;
+    }
+    .text {
+        width: 93%;
+    }
+}
+@media(max-width:800px){
+    h1 {
+        font-size: 2.2em;
+    }
+}
+@media(max-width:736px){ 
+    .main-content {
+        width: 62%; 
+    }
+}
+@media(max-width:667px){
+    .main-content {
+        width: 67%; 
+    } 
+}
+@media(max-width:600px){
+    .form {
+        padding: 2.2em;
+    } 
+    input[type="submit"] {
+        margin: 2em 0;
+    } 
+    h1 {
+        font-size: 2em;
+        letter-spacing: 3px;
+    }
+}
+@media(max-width:568px){
+    .main-content {
+        width: 75%; 
+    }
+} 
+@media(max-width:480px){
+    h1 {
+        font-size: 1.8em;
+        letter-spacing: 3px;
+    }
+    .form {
+        padding: 1.8em;
+    }
+    .text {
+        width: 91%;
+    }
+    .form p {
+        font-size: 0.9em; 
+    }
+}
+@media(max-width:414px){
+    h1 {
+        font-size: 1.8em;
+        letter-spacing: 2px;
+    }  
+    .main-content {
+        width: 85%;
+        margin: 1.5em auto;
+    }  
+    .text:focus { 
+        background-position: 0 0px;
+    }
+   
+    input[type="submit"] {
+        margin: 2em 0 1.5em;
+        letter-spacing: 3px;
+    }
+     
+   
+    }
+    @media(max-width:384px){
+    .main-content {
+        width: 88%; 
+    }  
+    }
+    @media(max-width:375px){
+    .form p { 
+        letter-spacing: 0px;
+    }
+    }
+    @media(max-width:320px){
+    .content {
+        padding: 1.5em 0 0;
+    }
+    .form {
+        padding: 1.2em;
+    }
+    
+    .text {
+        width: 89.5%;
+        font-size: 0.85em;
+    }
+    h1 {
+        font-size: 1.7em;
+        letter-spacing: 0px;
+    }  
+    .main-content {
+        width: 92%;
+        margin: 1em auto;
+    }
+    .text:focus { 
+        background-position: 0 0px;
+    } 
+    input[type="submit"] {
+        margin: 1.5em 0;
+        padding: 0.8em;
+        font-size: .85em;
+    } 
+}
