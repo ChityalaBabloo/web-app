@@ -1,3 +1,4 @@
+<pre>
 Make Sure You Have A Active Internet Connection.
 Make Sure You Placed This Project Folder In htdocs Of Server(XAMPP/WAMPP etc.)
 
@@ -44,3 +45,4 @@ NOTE: Your email should not have two-step verification and allow less secure app
 
 //To suggest names in name field
 1.open names.txt and enter names.
+</pre>
