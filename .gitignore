@@ -1,5 +1,6 @@
 .vscode/
 /vendor/
-/users csv file
-/test
-/testCopy/testdb
+users csv file.xlsx
+test.xlsx
+testCopy.xlsx
+testdb.sql
