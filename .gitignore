@@ -1,6 +1,6 @@
 .vscode/
 /vendor/
-users csv file.xlsx
+users csv file.csv
 test.xlsx
 testCopy.xlsx
 testdb.sql
