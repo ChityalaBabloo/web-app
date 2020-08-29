@@ -1,5 +1,6 @@
+#set of files that has been ignored from my working directory
 .vscode/
-/vendor/
+vendor/
 users csv file.csv
 test.xlsx
 testCopy.xlsx
